@@ -17,6 +17,7 @@ import 'package:flutter_form/shared/widget/button_outline/warning_button.dart';
 import 'package:flutter_form/shared/widget/checkfield/checkfiled.dart';
 import 'package:flutter_form/shared/widget/dropdown/dropdown_outline.dart';
 import 'package:flutter_form/shared/widget/image_picker/image_picker.dart';
+import 'package:flutter_form/shared/widget/radiofield/radiofield.dart';
 import 'package:flutter_form/shared/widget/textfield/textarea.dart';
 import 'package:flutter_form/shared/widget/textfield/textfield_number_outline.dart';
 import 'package:flutter_form/shared/widget/textfield/textfield_outline.dart';
@@ -245,49 +246,15 @@ class LatihanView extends StatefulWidget {
               const SizedBox(
                 height: 10.0,
               ),
-              LayoutBuilder(builder: (context, constraint) {
-                String groupValue = "gender";
-                List items = [
-                  {
-                    "label": "Female",
-                    "value": "female",
-                    "checked": true,
-                  },
-                  {
-                    "label": "Male",
-                    "value": "Male",
-                  }
-                ];
-                return FormField(
-                  initialValue: false,
-                  enabled: true,
-                  builder: (FormFieldState<bool> field) {
-                    return InputDecorator(
-                      decoration: InputDecoration(
-                        labelText: 'Gender',
-                        errorText: field.errorText,
-                        border: InputBorder.none,
-                      ),
-                      child: ListView.builder(
-                        shrinkWrap: true,
-                        itemCount: items.length,
-                        itemBuilder: (context, index) {
-                          var item = items[index];
-
-                          return RadioListTile<dynamic>(
-                            title: Text("${item["label"]}"),
-                            groupValue: true,
-                            value: item["checked"] ?? false,
-                            onChanged: (val) {
-                              field.didChange(true);
-                            },
-                          );
-                        },
-                      ),
-                    );
-                  },
-                );
-              }),
+              QRadioButton<String>(
+                label: 'Jenis Kelamin',
+                options: const [
+                  QRadioButtonOption(label: 'Laki-laki', value: 'L'),
+                  QRadioButtonOption(label: 'Perempuan', value: 'P'),
+                ],
+                value: 'L',
+                onChanged: (value) {},
+              ),
               const SizedBox(
                 height: 10.0,
               ),
