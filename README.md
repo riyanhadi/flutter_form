@@ -1,5 +1,4 @@
 # Teras UI KIT
-
 Latihan membuat UI KIT
 
 ## Button
@@ -29,7 +28,7 @@ Latihan membuat UI KIT
 - RadioField
 - ImagePicker
 
-## Sreenshot
+## Sreenshot Teras UI KIT
 ### Button
 ![Screenshot 2023-05-12 100931](https://raw.githubusercontent.com/riyanhadi/flutter_form/main/screenshot/button.png)
 
