@@ -31,11 +31,12 @@ Latihan membuat UI KIT
 
 ## Sreenshot
 ### Button
-![Screenshot 2023-05-12 100931](https://github.com/riyanhadi/flutter_form/screenshot/127032861/915058ea-b813-4f7f-a59a-01e5b37ab7fb)
+![Screenshot 2023-05-12 100931](https://raw.githubusercontent.com/riyanhadi/flutter_form/main/screenshot/button.png)
 
 ### Outline Button
-![Screenshot 2023-05-12 100950](https://github.com/riyanhadi/flutter_form/screenshot/127032861/6d9291c6-4cbe-410f-a588-ed07599962e9)
+![Screenshot 2023-05-12 100950](https://raw.githubusercontent.com/riyanhadi/flutter_form/main/screenshot/button_outline.png)
 
 ### Form
-![Screenshot 2023-05-12 101011](https://github.com/riyanhadi/flutter_form/screenshot/127032861/4c107cab-d874-491d-a03b-ce3191671111)
+![Screenshot 2023-05-12 101011](https://raw.githubusercontent.com/riyanhadi/flutter_form/main/screenshot/form1.png)
+![Screenshot 2023-05-12 101011](https://raw.githubusercontent.com/riyanhadi/flutter_form/main/screenshot/form2.png)
 
