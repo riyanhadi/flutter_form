@@ -227,7 +227,6 @@ class LatihanView extends StatefulWidget {
               ),
               QCheckField(
                 label: "Club",
-                hint: "Your favorite football club",
                 // validator: Validator.atLeastOneitem,
                 items: const [
                   {

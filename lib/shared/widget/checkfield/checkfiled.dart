@@ -56,7 +56,7 @@ class _QCheckFieldState extends State<QCheckField> {
             labelText: widget.label,
             errorText: field.errorText,
             border: InputBorder.none,
-            helperText: widget.hint,
+            // helperText: widget.hint,
           ),
           child: ListView.builder(
             shrinkWrap: true,

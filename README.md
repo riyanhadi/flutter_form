@@ -1,16 +1,35 @@
-# flutter_form
+# Teras UI KIT
 
-A new Flutter project.
+Latihan membuat UI KIT
 
-## Getting Started
+## Button
+- Success Button
+- Danger Button
+- Warning Button
+- Info Button
+- Disabled Button
+- Primary Button (Optional)
+- Secondary Button (Optional)
 
-This project is a starting point for a Flutter application.
+## Outline Button
+- Outline Success Button
+- Outline Danger Button
+- Outline Warning Button
+- Outline Info Button
+- Outline Primary Button
+- Outline Secondary Button
 
-A few resources to get you started if this is your first Flutter project:
+## Form
+- TextField
+- Textfield Numeric
+- Textfield Password
+- Textfield Multilines (TextArea|MemoField)
+- Dropdown
+- CheckField
+- RadioField
+- ImagePicker
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Sreenshot
+### Button
+### Outline Button
+### Form
