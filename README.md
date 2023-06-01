@@ -22,7 +22,7 @@ Latihan membuat UI KIT
 - TextField
 - Textfield Numeric
 - Textfield Password
-- Textfield Multilines (TextArea|MemoField)
+- Textfield Multilines (TextArea)
 - Dropdown
 - CheckField
 - RadioField
